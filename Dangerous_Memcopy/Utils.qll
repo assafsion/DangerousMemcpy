@@ -7,6 +7,4 @@ predicate isNumber(Variable v){
 
 predicate isMemcpy(FunctionCall fc){
     fc.getTarget().hasName("memcpy")
-    // or
-    // exists(LibTiffMemcpy memcpy | fc = memcpy)
 }

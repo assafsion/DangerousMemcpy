@@ -176,4 +176,3 @@ class DangerousMemcpy extends FunctionCall{
     }
 
 }
-

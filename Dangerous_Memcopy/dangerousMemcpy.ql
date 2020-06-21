@@ -71,8 +71,6 @@ where
                 )
             )
         )
-    
-    
-// select memcpy.getLocation(), memcpyLengthVar, allocSizeVar
+
 select memcpy.getLocation(), memcpy.getMemcpyLengthVars()
 
